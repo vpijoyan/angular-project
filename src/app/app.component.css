@@ -1,0 +1,13 @@
+.container-centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid black;
+    width: 400px;
+    height: 85vh;
+    position: absolute;
+    top: 4rem;
+}

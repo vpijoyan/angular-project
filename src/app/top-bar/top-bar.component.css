@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(85, 137, 234);
+}
+
+h1 {
+    margin-left: 20px;
+    font-weight: 100;
+    color: white;
+}
+
+.checkout {
+    margin: 20px;
+}
+
+.checkout button {
+    cursor: pointer;
+    border: none;
+    padding: 10px 14px;
+    background-color: #fff;
+    color: blue;
+    border-radius: 2px;
+}
+
+.checkout button i {
+    margin: 5px;
+}
+
+.checkout button:hover {
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+.checkout button:active {
+    opacity: 0.7;
+}

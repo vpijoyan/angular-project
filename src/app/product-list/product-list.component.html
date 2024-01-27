@@ -1,0 +1,10 @@
+<p>Products</p>
+<div *ngFor="let product of products">
+    <h3>
+        {{product.name}}
+    </h3>
+    <p *ngIf="product.desc">
+        Description: {{product.desc}}
+    </p>
+    <button type="button" (click)="showMessage()">Share</button>
+</div>
